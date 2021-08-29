@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.25em;
+    background-color: #fbfafa;
+    font-family: minipax, arial, Computer Modern Typewriter, monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  section {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin-bottom: 1.5em;
+  }
+
+  a, a:link, a:visited {
+    color: #1B00FF;
+    text-decoration: none;
+    -moz-transition: 0.2s color ease;
+    -webkit-transition: 0.2s color ease;
+    transition: 0.2s color ease;
+  }
+
+  a:hover, a:active, a:focus {
+    color: rgba(182, 243, 14, 1.0);
+  }
+
+  .clffrd {
+    background-color: #fbfafa;
+  }
+
+  .main {
+    margin: 0 auto;
+    overflow: hidden;
+    min-width: 280px;
+    max-width: 80%;
+    padding-top: 40px;
+  }
+
+  .info {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .portrait {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .name {
+    margin-bottom: 24px;
+    letter-spacing: .1em;
+  }
+
+  .social {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding: 6px;
+  }
+
+  .show:nth-child(even) {
+    background-color: #00ff01;
+  }
+
+  .show:nth-child(odd) {
+    background-color: #71e643;
+  }
+
+  .upcoming {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .date {
+    min-width: 5em
+  }
+
+  .venue {
+    padding: 6px 12px;
+  }
+
+  @media only screen and (max-width : 667px) {
+
+    .main {
+      color: #cccec6;
+      max-width: 100%;
+      padding: 0 10px;
+    }
+
+    .date {
+      min-width: 3em
+    }
+
+  }
